@@ -1,0 +1,119 @@
+body {
+	background-color: #FBF9FA;
+	color: rgb(50, 50, 50);
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+ }
+
+ h1, h2 {
+ 	font-family: 'Roboto Slab', serif;
+ }
+h1 {
+	color: #00A9A5;
+	font-weight: bolder;
+	font-size: 50px;
+	letter-spacing: 3px;
+}
+
+h2 {
+	color: #00A9A5;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #16302B
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	transition: color 0.3s ease;
+	color: #B8F2E6;
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 10px; 
+	text-align: center;
+}
+.img-circles {
+	border: solid;
+    border-radius: 100%;
+    border-color: #00A9A5;
+    border-width: 5px;
+}
+
+.img-square {
+	border-radius: 01%;
+}
+
+.btn-blue {
+	background-color: #00A9A5;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #B8F2E6;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #00A9A5
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #B8F2E6;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
